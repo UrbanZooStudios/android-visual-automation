@@ -1,0 +1,26 @@
+{
+  "name": "android-visual-automation",
+  "version": "1.0.0",
+  "description": "Visual Regression Pack for Android APKs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UrbanZooStudios/android-visual-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UrbanZooStudios/android-visual-automation/issues"
+  },
+  "homepage": "https://github.com/UrbanZooStudios/android-visual-automation#readme",
+  "dependencies": {
+    "webdriverio": "^9.24.0"
+  }
+}

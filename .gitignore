@@ -1,0 +1,5 @@
+node_modules/
+apps/*.apk
+.env
+apps/
+package-lock.json
