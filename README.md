@@ -1,128 +1,20 @@
-# android-visual-automation
-Visual Regression Pack for Android APKs
+# android-visual-automation POC Guide - https://urbanzoo-team-orm8k6g2.atlassian.net/wiki/x/AQDYAw 
+Visual Regression Pack for Android APKs & First Open termanl and run 
 
-# Next: Let’s Prove It Works
+## Step 2 — Android Studio
+Open Android Studio and start an emulator from device manager
 
-First Open termanl and run 
-appium --use-plugins=images
+## Step 3 — Visual Studio - Split Termal
+appium --use-plugins=images --address 127.0.0.1 --port 4723
 
-Open a **new terminal window** (leave Appium running).
+## Step 4 — Visual Studio - Split Termal
+Run any of the commands below to run the individual APK
+Run all APK Tests = node tests/visualClick.test.js      
 
----
+## Ipswich 
+Ipswich Apk = APP=ipswich node tests/visualClick.test.js
 
-## Step 1 — Confirm Emulator Is Visible
+## PDC 
+PDC APK = APP=pdc node tests/visualClick.test.js   
 
-```bash
-adb devices
-```
-
-You should see:
-
-```
-emulator-5554 device
-```
-
-If not, start your emulator from:
-
-**Android Studio**
-
----
-
-## Step 2 — Place One Test APK
-
-In your repo:
-
-```
-Android-visual-automation/
-   apps/app1.apk
-   icons/app1_home.png
-```
-
-Make sure:
-
-* APK file exists
-* PNG icon is tightly cropped
-
----
-
-## Step 3 — Run Your First Visual Test
-
-From your repo root:
-
-```bash
-npm test
-```
-
-What should happen:
-
-1. Appium connects
-2. Installs APK
-3. Launches app
-4. Searches screen for PNG
-5. Clicks it if found
-
----
-
-# ⚠ If Image Is Not Found
-
-We’ll adjust confidence threshold.
-
-The images plugin supports:
-
-```javascript
-const element = await driver.findElement('image', imageBase64);
-```
-
-But we can improve matching by adding settings:
-
-```javascript
-await driver.updateSettings({
-  imageMatchThreshold: 0.4
-});
-```
-
-Default is strict (0.4–0.5 is good starting point).
-
----
-
-# Important for 36 Apps
-
-Since you’ll scale this:
-
-* Lock emulator resolution
-* Disable animations
-* Use same DPI
-* Use consistent PNG size
-
-Disable animations (run once):
-
-```bash
-adb shell settings put global window_animation_scale 0
-adb shell settings put global transition_animation_scale 0
-adb shell settings put global animator_duration_scale 0
-```
-
----
-
-# You Are Now Ready For
-
-Option A — Test 1 app manually
-Option B — Auto-loop through all 36
-Option C — Build a smart PNG detection engine
-Option D — Add reporting
-Option E — Prepare CI-ready version
-
----
-
-Before we scale it, let’s confirm:
-
-Run your test script.
-
-Tell me:
-
-* Does the app launch?
-* Does the PNG click?
-* Or does it say image not found?
-
-We’ll tune it from there 👇
 

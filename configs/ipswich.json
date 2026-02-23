@@ -1,0 +1,23 @@
+{
+  "name": "ipswich",
+  "apk": "app-ipswich.apk",
+  "homeIcon": "icons/ipswich/home.png",
+  "imageThreshold": 0.35,
+  "waitBeforeSearchMs": 2000,
+  "retries": 4,
+  "retryDelayMs": 1200,
+  "steps": [
+    { "type": "tapImage", "png": "icons/ipswich/continue.png" },
+    { "type": "tapImage", "png": "icons/ipswich/continue.png" },
+    { "type": "tapImage", "png": "icons/ipswich/continue.png" },
+    { "type": "tapImage", "png": "icons/ipswich/button.png" },
+    { "type": "tapImage","png": "icons/ipswich/continue_as_guest.png"},
+    { "type": "tapImage","png": "icons/ipswich/Setup_Now.png"},
+    { "type": "tapImage","png": "icons/ipswich/Confirm.png"},
+    { "type": "tapImage", "png": "icons/ipswich/Latest_Button.png" },
+    { "type": "tapImage", "png": "icons/ipswich/TownTV.png" },
+    { "type": "tapImage", "png": "icons/ipswich/News.png" },
+    { "type": "tapImage", "png": "icons/ipswich/Matches.png" },
+    { "type": "tapImage", "png": "icons/ipswich/Menu.png" }
+  ]
+}
