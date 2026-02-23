@@ -78,12 +78,6 @@ function mergeStepCfg(cfg, step) {
   };
 }
 
-/**
- * Appium Images Plugin adds the `-image` locator strategy.
- * The "selector" is the base64-encoded template PNG.
- *
- * Click by coordinates inside the matched rectangle.
- */
 async function tryFindAndClickImage(driver, imageBase64, cfgLike) {
   await driver.updateSettings({ imageMatchThreshold: cfgLike.imageThreshold });
 
@@ -143,9 +137,6 @@ async function tryFindAndClickImage(driver, imageBase64, cfgLike) {
   return { ok: false, attempt: cfgLike.retries, error: lastErr };
 }
 
-/**
- * NEW: Find-only (no click) for verifying screen state.
- */
 async function tryFindImage(driver, imageBase64, cfgLike) {
   await driver.updateSettings({ imageMatchThreshold: cfgLike.imageThreshold });
 
