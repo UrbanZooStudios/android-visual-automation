@@ -1,19 +1,23 @@
 {
-  "name": "pdc",
-  "apk": "app-pdc.apk",
-  "homeIcon": "icons/pdc/continue.png",
-  "imageThreshold": 0.35,
-  "waitBeforeSearchMs": 2000,
-  "retries": 4,
-  "retryDelayMs": 1200,
-  "steps": [
-    { "type": "tapImage", "png": "icons/pdc/continue.png" },
-    { "type": "tapImage", "png": "icons/pdc/I_Understand.png" },
-    { "type": "tapImage", "png": "icons/pdc/allow.png" },
-    { "type": "tapImage", "png": "icons/pdc/skip.png" },
-    { "type": "tapImage", "png": "icons/pdc/continue.png" },
-    { "type": "tapImage", "png": "icons/pdc/continue.png" },
-    { "type": "tapImage", "png": "icons/pdc/continue.png" }
-
-  ]
+"name": "pdc",
+"apk": "app-pdc.apk",
+"homeIcon": "icons/pdc/continue.png",
+"imageThreshold": 0.35,
+"waitBeforeSearchMs": 2000,
+"retries": 4,
+"retryDelayMs": 1200,
+"steps": [
+  { "type": "tapImage", "png": "icons/pdc/continue.png" },
+  { "type": "tapImage", "png": "icons/pdc/I_Understand.png" },
+  { "type": "tapImage", "png": "icons/pdc/allow.png" },
+  { "type": "tapImage", "png": "icons/pdc/skip.png" },
+  { "type": "tapImage", "png": "icons/pdc/continue.png" },
+  { "type": "tapImage", "png": "icons/pdc/continue.png" },
+  { "type": "tapImage", "png": "icons/pdc/continue.png" },
+  { "type": "tapImage", "png": "icons/pdc/PDCTV.png" },
+  { "type": "tapImage", "png": "icons/pdc/live_scores.png" },
+  { "type": "tapImage", "png": "icons/pdc/menu.png" },
+  { "type": "tapImage", "png": "icons/pdc/news.png" },
+  { "type": "tapImage", "png": "icons/pdc/article.png" }
+]
 }

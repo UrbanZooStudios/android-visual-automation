@@ -14,9 +14,9 @@
     { "type": "tapImage","png": "icons/ipswich/continue_as_guest.png"},
     { "type": "tapImage","png": "icons/ipswich/Setup_Now.png"},
     { "type": "tapImage","png": "icons/ipswich/Confirm.png"},
-    { "type": "tapImage", "png": "icons/ipswich/Latest_Button.png" },
     { "type": "tapImage", "png": "icons/ipswich/TownTV.png" },
     { "type": "tapImage", "png": "icons/ipswich/News.png" },
+    { "type": "tapImage", "png": "icons/ipswich/Latest_Button.png" },
     { "type": "tapImage", "png": "icons/ipswich/Matches.png" },
     { "type": "tapImage", "png": "icons/ipswich/Menu.png" }
   ]

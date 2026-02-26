@@ -7,14 +7,13 @@ Open Android Studio and start an emulator from device manager
 ## Step 3 — Visual Studio - Split Termal
 appium --use-plugins=images --address 127.0.0.1 --port 4723
 
-## Step 4 — Visual Studio - Split Termal
+## Step 4 — Visual Studio - Split Termal - Run all APK Tests = node tests/visualClick.test.js    
 Run any of the commands below to run the individual APK
-Run all APK Tests = node tests/visualClick.test.js      
 
-## Ipswich 
+// Ipswich 
 Ipswich Apk = APP=ipswich node tests/visualClick.test.js
 
-## PDC 
+// PDC 
 PDC APK = APP=pdc node tests/visualClick.test.js   
 
 
