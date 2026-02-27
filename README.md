@@ -14,6 +14,9 @@ Run any of the commands below to run the individual APK
 Ipswich Apk = APP=ipswich node tests/visualClick.test.js
 
 // PDC 
-PDC APK = APP=pdc node tests/visualClick.test.js   
+PDC APK = APP=pdc node tests/visualClick.test.js
+
+// Celtic 
+PDC APK = APP=celtic node tests/visualClick.test.js   
 
 

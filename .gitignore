@@ -3,3 +3,4 @@ apps/*.apk
 .env
 apps/
 package-lock.json
+artifacts/

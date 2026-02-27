@@ -1,0 +1,20 @@
+{
+  "name": "celtic",
+  "apk": "app-celtic.apk",
+  "homeIcon": "icons/celtic/get_started.png",
+  "imageThreshold": 0.35,
+  "waitBeforeSearchMs": 2000,
+  "retries": 4,
+  "retryDelayMs": 1200,
+  "steps": [
+    { "type": "tapImage", "png": "icons/celtic/home.png" },
+    { "type": "tapImage", "png": "icons/celtic/get_started_one.png" },
+    { "type": "tapImage", "png": "icons/celtic/get_started_two.png" },
+    { "type": "tapImage", "png": "icons/celtic/get_started_three.png" },
+    { "type": "tapImage", "png": "icons/celtic/get_started_four.png" },
+    { "type": "tapImage", "png": "icons/celtic/fixtures_tab.png" },
+    { "type": "tapImage", "png": "icons/celtic/moments_tab.png" },
+    { "type": "tapImage", "png": "icons/celtic/shop_tab.png" },
+    { "type": "tapImage", "png": "icons/celtic/latest_tab.png" }
+  ]
+}

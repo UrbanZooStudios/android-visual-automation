@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/UrbanZooStudios/android-visual-automation#readme",
   "dependencies": {
+    "jimp": "^1.6.0",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
     "webdriverio": "^9.24.0"
   }
 }
