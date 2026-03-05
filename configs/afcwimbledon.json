@@ -1,0 +1,12 @@
+{
+"name": "afcwimbledon",
+"apk": "app-wimbledon-debug.apk",
+"homeIcon": "icons/afcwimbledon/get_started.png",
+"imageThreshold": 0.35,
+"waitBeforeSearchMs": 2000,
+"retries": 4,
+"retryDelayMs": 1200,
+"steps": [
+    { "type": "tapImage", "png": "icons/afcwimbledon/get_started.png" },
+    { "type": "tapImage", "png": "icons/afcwimbledon/match_centre.png" }
+]}

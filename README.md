@@ -31,4 +31,8 @@ Edgbaston APK - APP=edgbaston node tests/visualClick.test.js
 // Everton 
 everton APP=everton node tests/visualClick.test.js
 
+// AFC Wimbledon
+AFC Wimbledon APP=afcwimbledon node tests/visualClick.test.js
+
+
 
