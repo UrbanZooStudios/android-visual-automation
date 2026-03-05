@@ -1,0 +1,15 @@
+{
+"name": "rugbyLeague",
+"apk": "app-rugbyleague.apk",
+"homeIcon": "icons/rugbyLeague/get_started.png",
+"imageThreshold": 0.35,
+"waitBeforeSearchMs": 2000,
+"retries": 4,
+"retryDelayMs": 1200,
+"steps": [
+    { "type": "tapImage", "png": "icons/rugbyLeague/get_started.png" },
+    { "type": "tapImage", "png": "icons/rugbyLeague/Step_1.png" },
+    { "type": "tapImage", "png": "icons/rugbyLeague/Step_1.png" },
+    { "type": "tapImage", "png": "icons/rugbyLeague/Step_3.png" },
+    { "type": "tapImage", "png": "icons/rugbyLeague/Step_4.png" }
+]}

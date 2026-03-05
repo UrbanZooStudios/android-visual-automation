@@ -19,4 +19,8 @@ PDC APK = APP=pdc node tests/visualClick.test.js
 // Celtic 
 PDC APK = APP=celtic node tests/visualClick.test.js   
 
+// Rugby League
+Rugby Leauge APK = APP=rugbyLeague node tests/visualClick.test.js 
+
+
 
