@@ -8,8 +8,5 @@
 "retryDelayMs": 1200,
 "steps": [
     { "type": "tapImage", "png": "icons/rugbyLeague/get_started.png" },
-    { "type": "tapImage", "png": "icons/rugbyLeague/Step_1.png" },
-    { "type": "tapImage", "png": "icons/rugbyLeague/Step_1.png" },
-    { "type": "tapImage", "png": "icons/rugbyLeague/Step_3.png" },
-    { "type": "tapImage", "png": "icons/rugbyLeague/Step_4.png" }
+    { "type": "tapImage", "png": "icons/rugbyLeague/Step_1.png" }
 ]}
