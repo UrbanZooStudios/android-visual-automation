@@ -1,0 +1,12 @@
+{
+"name": "edgbaston",
+"apk": "app-edgbaston.apk",
+"homeIcon": "icons/edgbaston/get_started.png",
+"imageThreshold": 0.35,
+"waitBeforeSearchMs": 2000,
+"retries": 4,
+"retryDelayMs": 1200,
+"steps": [
+    { "type": "tapImage", "png": "icons/edgbaston/get_started.png" },
+    { "type": "tapImage", "png": "icons/edgbaston/match_centre.png" }
+]}

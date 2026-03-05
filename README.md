@@ -8,7 +8,7 @@ Open Android Studio and start an emulator from device manager
 appium --use-plugins=images --address 127.0.0.1 --port 4723
 
 ## Step 4 — Visual Studio - Split Termal - Run all APK Tests = node tests/visualClick.test.js  
-// All Apps = node tests/visualClick.test.js  
+// Run All APKs = node tests/visualClick.test.js  
 
 // Ipswich 
 Ipswich Apk = APP=ipswich node tests/visualClick.test.js
@@ -24,5 +24,8 @@ Rugby Leauge APK = APP=rugbyLeague node tests/visualClick.test.js
 
 // AFC bournemouth
 AFC Bournemouth APK -  APP=bournemouth node tests/visualClick.test.js 
+
+// Edgebaston 
+Edgbaston APK - APP=edgbaston node tests/visualClick.test.js 
 
 
