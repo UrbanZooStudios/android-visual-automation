@@ -28,4 +28,7 @@ AFC Bournemouth APK -  APP=bournemouth node tests/visualClick.test.js
 // Edgebaston 
 Edgbaston APK - APP=edgbaston node tests/visualClick.test.js 
 
+// Everton 
+everton APP=everton node tests/visualClick.test.js
+
 

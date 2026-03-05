@@ -1,0 +1,12 @@
+{
+"name": "everton",
+"apk": "app-everton-debug.apk",
+"homeIcon": "icons/everton/get_started.png",
+"imageThreshold": 0.35,
+"waitBeforeSearchMs": 3000,
+"retries": 4,
+"retryDelayMs": 1200,
+"steps": [
+    { "type": "tapImage", "png": "icons/everton/get_started.png" },
+    { "type": "tapImage", "png": "icons/everton/step_1.png" }
+]}
