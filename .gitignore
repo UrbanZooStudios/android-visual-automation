@@ -4,3 +4,4 @@ apps/*.apk
 apps/
 package-lock.json
 artifacts/
+.DS_Store

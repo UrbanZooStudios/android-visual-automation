@@ -22,5 +22,7 @@ PDC APK = APP=celtic node tests/visualClick.test.js
 // Rugby League
 Rugby Leauge APK = APP=rugbyLeague node tests/visualClick.test.js 
 
+// AFC bournemouth
+AFC Bournemouth APK -  APP=bournemouth node tests/visualClick.test.js 
 
 
